@@ -1,9 +1,3 @@
-Provide Builder for FeedbackMessages
+Introduce Builder for FeedbackMessages to improve expressiveness and safety
 
-aim is to be more expressive and shorten the statements,
-but also safer to use.
-
-- one can start from static methods 'info', 'warn', 'error'
-- one is guided throw the necessary elements
-- ending with either message or exception
-
+This commit introduces a Builder for FeedbackMessages, which allows users to more easily and clearly express their intentions when creating FeedbackMessages. The Builder provides static methods 'info', 'warn', and 'error' to help guide users through the process of constructing a FeedbackMessage, and allows them to easily add either a message or exception as needed. This should make it easier and safer to use FeedbackMessages in your code.
