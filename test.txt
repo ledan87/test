@@ -1,0 +1,9 @@
+Provide Builder for FeedbackMessages
+
+aim is to be more expressive and shorten the statements,
+but also safer to use.
+
+- one can start from static methods 'info', 'warn', 'error'
+- one is guided throw the necessary elements
+- ending with either message or exception
+
